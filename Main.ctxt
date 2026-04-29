@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Main
+comment0.text=\r\n\ Main\ class\r\n\ \r\n\ This\ class\ contains\ the\ main\ method.\r\n\ It\ handles\:\r\n\ -\ displaying\ the\ menu\r\n\ -\ taking\ user\ input\r\n\ -\ calling\ methods\ from\ HospitalManagementSystem\r\n\ \r\n\ Important\:\r\n\ This\ class\ should\ only\ handle\ user\ interaction.\r\n\ The\ actual\ hospital\ logic\ is\ handled\ by\ HospitalManagementSystem.\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ main\ method\r\n\ \r\n\ This\ is\ the\ starting\ point\ of\ the\ entire\ Java\ program.\r\n
+numComments=2
