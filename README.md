@@ -49,8 +49,6 @@ The system is organized into multiple classes:
 - **PerformanceTest** → Handles runtime testing and analysis  
 - **Main** → Entry point of the application  
 
----
-
 ## 🚦 Running the Project Locally
 
 To run this project on your local machine:
@@ -60,3 +58,58 @@ To run this project on your local machine:
 3. Compile the Java files:
    ```bash
    javac *.java
+4. Run the program:
+   ```bash
+   java Main
+
+## 📊 Performance & Complexity
+
+The system was tested with varying input sizes to evaluate efficiency and scalability.
+
+### Time Complexity:
+
+- Heap Insert → O(log n)  
+- Heap Remove → O(log n)  
+- Queue Enqueue → O(1)  
+- Queue Dequeue → O(1)  
+
+### Key Observations:
+- Heap operations increase logarithmically as input size grows  
+- Queue operations remain nearly constant regardless of input size  
+- Experimental results align with theoretical expectations of both data structures  
+
+
+## 📚 What I Learned
+
+This project strengthened my understanding of how data structures are applied in real-world systems.
+
+### 🧠 Data Structures & Algorithms
+- Applied heaps for priority-based scheduling  
+- Used queues for efficient sequential processing  
+- Understood trade-offs between different data structures  
+
+### ⚙️ System Design
+- Designed a modular system using object-oriented programming principles  
+- Integrated multiple components into a cohesive application  
+- Simulated real-world workflows in software  
+
+### 📈 Performance Analysis
+- Measured execution time using `System.nanoTime()`  
+- Compared empirical results with theoretical complexity  
+- Analyzed scalability with increasing data sizes  
+
+### 🛠 Practical Java Skills
+- Built a multi-class Java application  
+- Implemented custom data structures from scratch  
+- Practiced clean and structured code organization  
+
+
+## 🧪 Future Improvements
+
+Possible enhancements for this project include:
+
+- Adding a graphical user interface (GUI)  
+- Integrating a database for persistent storage  
+- Supporting more advanced triage rules  
+- Implementing multi-threading for real-time simulation  
+
